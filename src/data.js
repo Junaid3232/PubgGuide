@@ -354,37 +354,79 @@ export default categories=[{
                         id:0,
                         image:require('../src/assets/PUBG/GUNS/DMR/mini14.png'),
                         title:'MINI-14',
-                        ammo:'USED 5.56MM AMMO'
+                        ammo:'USED 5.56MM AMMO',
+                        ammoPic:require('../src/assets/PUBG/AMMUNATION/5.56mm.png'),
+                        capacity:20,
+                        power:0.7,
+                        range:0.6,
+                        stable:0.4,
+                        firing:0.3,
+                        des:' The Mini-14 is a lightweight and compact 5.56 semi-automatic marksman rifle. · The weapon uses sniper rifle attachments for both the muzzle and magazine slots'
                     },
                     {
                         id:1,
                         image:require('../src/assets/PUBG/GUNS/DMR/sks.png'),
                         title:'SKS',
-                        ammo:'USES 7.62MM AMMO' 
+                        ammo:'USES 7.62MM AMMO' ,
+                        ammoPic:require('../src/assets/PUBG/AMMUNATION/7.62.png'),
+                        capacity:10,
+                        power:0.6,
+                        range:0.5,
+                        stable:0.4,
+                        firing:0.2,
+                        des:'SKS is the most basic DMR that uses the 7.62mm ammo and can be found on all the maps on PUBG. This gun has the lowest range among the DMRs using bigger bullets, and its damage of 53 is higher than the Mini 14 and QBU that use 5.56mm ammo. ... It holds a normal magazine of 10 bullets, which can be extended to 20. '
                     },
                     {
                         id:2,
                         image:require('../src/assets/PUBG/GUNS/DMR/vss.png'),
                         title:'VSS',
-                        ammo:'USES 9MM AMMO'
+                        ammo:'USES 9MM AMMO',
+                        ammoPic:require('../src/assets/PUBG/AMMUNATION/9mm.png'),
+                        capacity:10,
+                        power:0.4,
+                        range:0.3,
+                        stable:0.4,
+                        firing:0.5,
+                        des:'The VSS is a suppressed sniper rifle with permanent 4X scope & chambered for 9mm ammo. This weapon is a very rare loot spawn. '
                     },
                     {
                         id:3,
                         image:require('../src/assets/PUBG/GUNS/DMR/mk14.png'),
                         title:'MK14',
-                        ammo:'USES 5.56MM AMMO'
+                        ammo:'USES 5.56MM AMMO',
+                        ammoPic:require('../src/assets/PUBG/AMMUNATION/5.56mm.png'),
+                        capacity:10,
+                        power:0.6,
+                        range:0.5,
+                        stable:0.3,
+                        firing:0.4,
+                        des:'The MK14 is a very rare DMR in the game, available only in drops. It has an outstanding hit damage of 61, which is the highest damage out of any DMR in PUBG Mobile. ... The MK14 has a fast bullet speed of 853 m/s and a respectable fire rate of 0.090 seconds. '
                     },
                     {
                       id:6,
                       image:require('../src/assets/PUBG/GUNS/DMR/slr.png'),
                       title:'SLR',
-                      ammo:'USES 5.56MM AMMO'
+                      ammo:'USES 5.56MM AMMO',
+                      ammoPic:require('../src/assets/PUBG/AMMUNATION/7.62.png'),
+                      capacity:10,
+                      power:0.3,
+                      range:0.4,
+                      stable:0.3,
+                      firing:0.2,
+                      des:'SLR is a quite impressive DMR (Designated Marksman Rifle) in PUBG Mobile. ... This gun can deal severe damage like a sniper rifle and can gun down enemies like an assault rifle with an auto mode. '
                     },
                     {
                         id:5,
                         image:require('../src/assets/PUBG/GUNS/DMR/qbu.png'),
                         title:'QBU',
-                        ammo:'USES 5.56MM AMMO'
+                        ammo:'USES 5.56MM AMMO',
+                        ammoPic:require('../src/assets/PUBG/AMMUNATION/5.56mm.png'),
+                        capacity:10,
+                        power:0.4,
+                        range:0.3,
+                        stable:0.3,
+                        firing:0.2,
+                        des:'The QBU is a Chinese bullpup designated marksman that fits the theme/location of the Sanhok. The rifle features a bipod that deploys upon proning. When deployed, the bipod significantly reduces the recoil when shooting. '
                     }]
 },
 
@@ -397,49 +439,102 @@ export default categories=[{
                     id:0,
                     image:require('../src/assets/PUBG/GUNS/PISTOLS/p18c.png'),
                     title:'P18c',
-                    ammo:'USED 5.56MM AMMO'
+                    ammo:'USED 5.56MM AMMO',
+                    ammoPic:require('../src/assets/PUBG/AMMUNATION/9mm.png'),
+                    capacity:17,
+                    power:0.15,
+                    range:0.2,
+                    stable:0.3,
+                    firing:0.2,
+                    des:"The P18C is a automatic secondary and because of this it's the lowest damaging pistol in the game. Despite this, it actually boasts the highest damage per second of all the pistols, even rivaling submachine guns in terms of utility."
                 },
                 {
                     id:1,
                     image:require('../src/assets/PUBG/GUNS/PISTOLS/p92.png'),
                     title:'P92',
-                    ammo:'USES 7.62MM AMMO' 
+                    ammo:'USES 7.62MM AMMO' ,
+                    ammoPic:require('../src/assets/PUBG/AMMUNATION/9mm.png'),
+                    capacity:10,
+                    power:0.15,
+                    range:0.3,
+                    stable:0.3,
+                    firing:0.2,
+                    des:"The P92 is the middle ground of the pistols, with a balance of firepower and ammo capacity. With a modest rate of fire and steady hands, this pistol can quickly determine the winner in early game fights while everyone is rushing to find guns."
                 },
                 {
                     id:2,
                     image:require('../src/assets/PUBG/GUNS/PISTOLS/p1911.png'),
                     title:'P1911',
-                    ammo:'USES 9MM AMMO'
+                    ammo:'USES 9MM AMMO',
+                    ammoPic:require('../src/assets/PUBG/AMMUNATION/45acp.png'),
+                    capacity:10,
+                    power:0.2,
+                    range:0.2,
+                    stable:0.3,
+                    firing:0.2,
+                    des:"P1911 is a semi-automatic pistol that has more power when shooting and adapting to a longer range and is much more accurate than the other pistol. To get P1911 to reach its precise point you might need to attach some attachment for it."
                 },
                 {
                     id:3,
                     image:require('../src/assets/PUBG/GUNS/PISTOLS/r45.png'),
                     title:'R45',
-                    ammo:'USES 5.56MM AMMO'
+                    ammo:'USES 5.56MM AMMO',
+                    ammoPic:require('../src/assets/PUBG/AMMUNATION/45acp.png'),
+                    capacity:10,
+                    power:0.1,
+                    range:0.1,
+                    stable:0.3,
+                    firing:0.2,
+                    des:"This revolver is an alternative to the R1895 due to its faster reloading time with the tradeoff of slightly weaker damage."
                 },
                 {
                   id:6,
                   image:require('../src/assets/PUBG/GUNS/PISTOLS/r1895.png'),
                   title:'R1895',
-                  ammo:'USES 5.56MM AMMO'
+                  ammo:'USES 5.56MM AMMO',
+                  ammoPic:require('../src/assets/PUBG/AMMUNATION/7.62.png'),
+                  capacity:15,
+                  power:0.15,
+                  range:0.3,
+                  stable:0.3,
+                  firing:0.2,
+                  des:"The R1895 is a vintage revolver that utilizes the same ammo as the AKM, GROZA, Kar98K, among others. This allows easy loadout management & you don't have to search for two separate types of ammo."
                 },
                 {
                     id:5,
                     image:require('../src/assets/PUBG/GUNS/PISTOLS/sawed-off.png'),
                     title:'SAWED-OFF',
-                    ammo:'USES 5.56MM AMMO'
+                    ammo:'USES 5.56MM AMMO',
+                    ammoPic:require('../src/assets/PUBG/AMMUNATION/12gauge.png'),
+                    capacity:10,
+                    power:0.2,
+                    range:0.3,
+                    stable:0.3,
+                    firing:0.2,
+                    des:"A break-open shotgun with shortened barrel capable of firing two consecutive shots. The Sawed-off is an exclusive shotgun type weapon that fits in your handgun slot/inventory on the map Miramar in BATTLEGROUNDS. This weapon was introduced in the Test Server PC 1.0 update."
+                    
                 },
                 {
                     id:5,
                     image:require('../src/assets/PUBG/GUNS/PISTOLS/skorpion.png'),
                     title:'SKORPION',
-                    ammo:'USES 5.56MM AMMO'
+                    ammo:'USES 5.56MM AMMO',
+                    ammoPic:require('../src/assets/PUBG/AMMUNATION/9mm.png'),
+                    capacity:20,
+                    power:0.18,
+                    range:0.3,
+                    stable:0.3,
+                    firing:0.2,
+                    des:"The Skorpion is an automatic pistol which behaves like a mini machine-gun. That said, it has two firing modes, including single and auto. This firearm has a hit damage of only 22. However, the weapon is straightforward to use considering its mild recoil and a 20-round magazine size."
                 },
                 {
                     id:5,
                     image:require('../src/assets/PUBG/GUNS/PISTOLS/flare.png'),
                     title:'FLARE',
-                    ammo:'USES FLARE AMMO'
+                    ammo:'USES FLARE AMMO',
+                    ammoPic:require('../src/assets/PUBG/AMMUNATION/flare.png'),
+                    capacity:1,
+                    des:"The Flare Gun in PUBG is a rare find in all the three maps that have been rolled out in the game yet (Erangel, Miramar and Sanhok) and is used to call-in a special supply-crate drop (when you are inside the white circle) or an armoured UAZ (when you are outside the white circle)."
                 }
             ]
 },
@@ -452,37 +547,39 @@ export default categories=[{
                     id:0,
                     image:require('../src/assets/PUBG/GUNS/THROWABLES/gernate.png'),
                     title:'GERNATE',
+                    des: 'The first bomb is theFrag bomb: The most important element is the time taken to throw a grenade. It can be accessed in the armory. It can blast off the enemy’s team if thrown from the angle most aligned to the enemy’s direction.The bomb will turn the game around if thrown with its full potential. These grenades last 5 seconds. So, cook them before throwing them.'
                    
                 },
                 {
                     id:1,
                     image:require('../src/assets/PUBG/GUNS/THROWABLES/cocktail.png'),
                     title:'COCKTAIL',
+                    des: 'The third bomb isMolotov grenade: It is indeed the powerful bomb. It can blow off the wooden doors. It can significantly move the enemy. Throw a Molotov grenade and see the intensity and the impact of the throw gets multiplied with the surface it hits.It is a powerful bomb which can throw enemy out of the game. Molotov bombs explode on the impact or in 5 seconds of throwing.'
                     
                 },
                 {
                     id:2,
                     image:require('../src/assets/PUBG/GUNS/THROWABLES/smoke.png'),
                     title:'SMOKE',
-                  
+                    des: 'The second bomb isSmoke bomb: After it is thrown, it emits a lot of smoke taking the visibility to a minimum. The enemy gets confused about the location of a player. One can take advantage of the situation and escape.This way, the enemy will hardly see anything, and therefore the chances to get killed increase. These grenades last for 3 seconds.'
                 },
                 {
                     id:3,
                     image:require('../src/assets/PUBG/GUNS/THROWABLES/stunGernade.png'),
                     title:'STUN GERNADE',
-                  
+                    des: 'The Stun grenade: It is a noisy bomb that stuns the players after it is thrown. A player cannot listen and see anything after it is thrown.The bomb lasts for about 2.5 seconds. This bomb has unique characteristics that will knock out the enemy of the game and move you closer to the WINNER WINNER CHICKEN DINNER.The bombs are an alternate to the rifles when the player runs out of the bullets. They will not only save the player against the enemy but will let the team win.'
                 },
                 {
                   id:6,
                   image:require('../src/assets/PUBG/GUNS/THROWABLES/apple.png'),
                   title:'APPLE',
-                 
+                  des: 'A nice, juicy and plump apple more than fit for human consumption. But instead, everyone within BATTLEGROUNDS has deemed them to be more suited for throwing at each other while waiting in the lobby.'
                 },
                 {
                     id:5,
                     image:require('../src/assets/PUBG/GUNS/THROWABLES/snowball.png'),
                     title:'SNOWBALL',
-                    
+                    des: 'Players will be able to throw snowballs while waiting in the starting area to board the plane. Vehicles will be more slippery in snow and icy areas. Acceleration on icy terrain will be slow while you will lose vehicle control as you speed up.'
                 },],
 },
 { //MELEE
@@ -494,24 +591,33 @@ export default categories=[{
                 id:2,
                 image:require('../src/assets/PUBG/GUNS/MELEE/pan.png'),
                 title:'PAN',
+                power:0.6,
+                des: 'The Pan is a melee weapon in PUBG. According to a Gamepedia article about PUBG, the pan used to cause 100+ damage in the pre-released version of PUBG Mobile. As funny or unrealistic as it may sound, a player with all level 3 armor would be killed instantly upon being hit by the pan'
               
             },
             {
                 id:3,
                 image:require('../src/assets/PUBG/GUNS/MELEE/cowbar.png'),
                 title:'COWBAR',
+                power:0.4,
+                des: 'Commonly used to pry objects apart, pull out nails, or swing at an assailant. It does a fair amount of damage, but the slow swing speed and overall poor melee mechanics as a whole make this weapon a last resort when all else has failed.'
+
               
             },
             {
               id:6,
               image:require('../src/assets/PUBG/GUNS/MELEE/machete.png'),
               title:'MACHETE',
+              power:0.5,
+              des: 'The tapanga machete is a long and sharp metal object with a wooden handle used in game as a melee weapon that is exclusively useful against unarmed and unarmored opponents, as it is capable of taking a person without armor down in one hit.'
              
             },
             {
                 id:5,
                 image:require('../src/assets/PUBG/GUNS/MELEE/sickle.png'),
                 title:'SICKLE',
+                power:0.5,
+                des: 'A sickle is a melee weapon consisting of a long wooden rod with a sharp metal part on it. The weapon is highly effective against unarmed opponents and is relatively easy to find.'
                 
             },],
 }]

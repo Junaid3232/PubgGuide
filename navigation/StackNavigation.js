@@ -11,6 +11,9 @@ import OnBoarding from '../src/screens/OnBoarding'
 import Tabs from './Tabs';
 import DetailsScreen from '../src/components/DetailsScreen';
 import Assault from '../src/components/Assault';
+import AttachmentsScreen from '../src/screens/AttachmentsScreen'
+import HealthScreen from '../src/screens/HealthScreen'
+import AmmoScreen from '../src/screens/AmmoScreen'
 
 
 const Stack = createStackNavigator();
@@ -27,6 +30,9 @@ const StackNavigation=()=> {
         <Stack.Screen name="Guns" component={GunsScreen} />
         <Stack.Screen name="Details" component={DetailsScreen} />
         <Stack.Screen name="Assault" component={Assault}/>
+        <Stack.Screen name="Attachments" component={AttachmentsScreen}/>
+        <Stack.Screen name="Health" component={HealthScreen}/>
+        <Stack.Screen name="Ammo" component={AmmoScreen}/>
        
 </Stack.Navigator>
   

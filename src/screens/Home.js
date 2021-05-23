@@ -12,25 +12,29 @@ const categories=[{
     image:require('../assets/PUBG/GUNS/AR/m416.png'),
     title:'GUNS',
     des:'USES 5.56 AMMO',
+    goTo:'Guns'
 },
 
 {
     id:1,
     image:require('../assets/PUBG/ATTACHMENTS/MAGAZINES/extended.png'),
     title:'ATTACHMENTS',
-    des:'USES 5.56 AMMO'
+    des:'USES 5.56 AMMO',
+    goTo:'Attachments'
 },
 {
     id:2,
     image:require('../assets/PUBG/HEALTH/Healing/firstAidKit.png'),
     title:'HEALTH',
-    des:'USES 5.56 AMMO'
+    des:'USES 5.56 AMMO',
+    goTo: 'Health'
 },
 {
     id:4,
     image:require('../assets/PUBG/AMMUNATION/5.56mm.png'),
     title:'AMMUNATION',
-    des:'USES 5.56 AMMO'
+    des:'USES 5.56 AMMO',
+    goTo:'Ammo'
 },
 {
     id:3,
@@ -46,7 +50,7 @@ const Home=({navigation})=>{
     const renderItem = ({ item }) => {
     
         return (
-            <TouchableOpacity onPress={()=>navigation.navigate('Guns',{
+            <TouchableOpacity onPress={()=>navigation.navigate(item.goTo,{
                 id:item.id,
                 image:item.image
            })}>
@@ -64,8 +68,6 @@ const Home=({navigation})=>{
       {/* <Animatable.Text animation="zoomInUp">Zoom me up, Scotty</Animatable.Text> */}
  <View style={{}}>
       <FlatList data={categories}
-    
-    
        keyExtractor={item => item.id}
       renderItem={renderItem}
       style={{}}
