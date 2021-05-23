@@ -29,7 +29,7 @@ const Tabs=()=> {
      }
     }}>
 
-   
+   {/* Tabs */}
       <Tab.Screen name="Homee" component={MainCard} options={{
 
           tabBarIcon:({focused})=>(
